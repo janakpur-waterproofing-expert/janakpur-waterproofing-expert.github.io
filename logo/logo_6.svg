@@ -1,0 +1,126 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="waterDropGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4FC3F7;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#2196F3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1976D2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="shieldGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4CAF50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2E7D32;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="houseRoof" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#D84315;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#BF360C;stop-opacity:1" />
+    </linearGradient>
+    <filter id="dropShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="0" dy="2" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.3"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <radialGradient id="highlight" cx="30%" cy="30%" r="50%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Large Water Drop Shape -->
+  <g id="waterDrop" filter="url(#dropShadow)">
+    <!-- Main water drop -->
+    <path d="M 200 80 Q 150 120 150 170 Q 150 230 200 260 Q 250 230 250 170 Q 250 120 200 80 Z" 
+          fill="url(#waterDropGradient)" stroke="#1565C0" stroke-width="3"/>
+    
+    <!-- Highlight effect on water drop -->
+    <ellipse cx="180" cy="130" rx="35" ry="50" fill="url(#highlight)"/>
+    
+    <!-- Smaller highlight -->
+    <ellipse cx="175" cy="120" rx="15" ry="20" fill="#ffffff" opacity="0.4"/>
+    <circle cx="170" cy="115" r="8" fill="#ffffff" opacity="0.6"/>
+  </g>
+  
+  <!-- Shield Shape Inside Water Drop -->
+  <g id="shieldWithHouse" transform="translate(200, 180)">
+    <!-- Shield background -->
+    <path d="M 0 -50 L 35 -35 L 35 0 Q 35 30 0 50 Q -35 30 -35 0 L -35 -35 Z" 
+          fill="url(#shieldGradient)" stroke="#1B5E20" stroke-width="2"/>
+    
+    <!-- Shield inner highlight -->
+    <path d="M 0 -45 L 30 -32 L 30 0 Q 30 25 0 43 Q -30 25 -30 0 L -30 -32 Z" 
+          fill="none" stroke="#66BB6A" stroke-width="1.5" opacity="0.4"/>
+    
+    <!-- House Icon Inside Shield -->
+    <g id="houseIcon">
+      <!-- House roof -->
+      <path d="M -20 -5 L 0 -20 L 20 -5 Z" fill="url(#houseRoof)" stroke="#BF360C" stroke-width="1"/>
+      
+      <!-- Chimney -->
+      <rect x="10" y="-17" width="4" height="8" fill="#8D6E63" stroke="#6D4C41" stroke-width="0.8"/>
+      
+      <!-- House body -->
+      <rect x="-18" y="-5" width="36" height="25" fill="#FFF8E1" stroke="#E6B74E" stroke-width="1.5"/>
+      
+      <!-- Door -->
+      <rect x="-5" y="8" width="10" height="12" fill="#8D6E63" stroke="#6D4C41" stroke-width="1" rx="1"/>
+      <circle cx="2" cy="14" r="0.8" fill="#FFD700"/>
+      
+      <!-- Windows -->
+      <rect x="-13" y="3" width="7" height="7" fill="#81D4FA" stroke="#0277BD" stroke-width="1"/>
+      <line x1="-13" y1="6.5" x2="-6" y2="6.5" stroke="#0277BD" stroke-width="0.5"/>
+      <line x1="-9.5" y1="3" x2="-9.5" y2="10" stroke="#0277BD" stroke-width="0.5"/>
+      
+      <rect x="6" y="3" width="7" height="7" fill="#81D4FA" stroke="#0277BD" stroke-width="1"/>
+      <line x1="6" y1="6.5" x2="13" y2="6.5" stroke="#0277BD" stroke-width="0.5"/>
+      <line x1="9.5" y1="3" x2="9.5" y2="10" stroke="#0277BD" stroke-width="0.5"/>
+    </g>
+    
+    <!-- Decorative shield details -->
+    <circle cx="-28" cy="-25" r="2" fill="#FFD700" opacity="0.8"/>
+    <circle cx="28" cy="-25" r="2" fill="#FFD700" opacity="0.8"/>
+  </g>
+  
+  <!-- Small water drops around (being controlled) -->
+  <g id="surroundingDrops" opacity="0.7">
+    <!-- Top drops -->
+    <path d="M 165 70 Q 162 73 162 77 Q 162 81 165 83 Q 168 81 168 77 Q 168 73 165 70 Z" fill="#2196F3" opacity="0.6"/>
+    <path d="M 235 70 Q 232 73 232 77 Q 232 81 235 83 Q 238 81 238 77 Q 238 73 235 70 Z" fill="#2196F3" opacity="0.6"/>
+    
+    <!-- Side drops -->
+    <path d="M 130 150 Q 127 153 127 157 Q 127 161 130 163 Q 133 161 133 157 Q 133 153 130 150 Z" fill="#2196F3" opacity="0.6"/>
+    <path d="M 270 150 Q 267 153 267 157 Q 267 161 270 163 Q 273 161 273 157 Q 273 153 270 150 Z" fill="#2196F3" opacity="0.6"/>
+    
+    <!-- Bottom drops -->
+    <path d="M 160 250 Q 157 253 157 257 Q 157 261 160 263 Q 163 261 163 257 Q 163 253 160 250 Z" fill="#2196F3" opacity="0.6"/>
+    <path d="M 240 250 Q 237 253 237 257 Q 237 261 240 263 Q 243 261 243 257 Q 243 253 240 250 Z" fill="#2196F3" opacity="0.6"/>
+    
+    <!-- Tiny drops -->
+    <circle cx="145" cy="110" r="2" fill="#2196F3" opacity="0.5"/>
+    <circle cx="255" cy="110" r="2" fill="#2196F3" opacity="0.5"/>
+    <circle cx="145" cy="210" r="2" fill="#2196F3" opacity="0.5"/>
+    <circle cx="255" cy="210" r="2" fill="#2196F3" opacity="0.5"/>
+  </g>
+  
+  <!-- Company Name -->
+  <text x="200" y="310" font-family="Arial, sans-serif" font-size="32" font-weight="bold" 
+        fill="#2c5f2d" text-anchor="middle" letter-spacing="2">JANAKPUR</text>
+  
+  <!-- Decorative Line -->
+  <line x1="85" y1="324" x2="315" y2="324" stroke="#ff6f00" stroke-width="2"/>
+  
+  <!-- Subtitle -->
+  <text x="200" y="349" font-family="Arial, sans-serif" font-size="18" font-weight="600" 
+        fill="#ff6f00" text-anchor="middle" letter-spacing="1">Waterproofing Expert</text>
+  
+  <!-- Tagline -->
+  <text x="200" y="372" font-family="Arial, sans-serif" font-size="11" 
+        fill="#666666" text-anchor="middle">Masters of Water Protection</text>
+  
+  <!-- Decorative dots -->
+  <circle cx="70" cy="324" r="3" fill="#4CAF50"/>
+  <circle cx="330" cy="324" r="3" fill="#4CAF50"/>
+</svg>
