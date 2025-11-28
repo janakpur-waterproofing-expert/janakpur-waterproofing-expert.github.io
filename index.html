@@ -11,6 +11,7 @@
       name="description"
       content="Leading construction company offering waterproofing, seepage repair, interior design, modular kitchens, metal works, UPVC solutions & building renovation. 15+ years experience."
     />
+    <link rel="icon" type="image/svg+xml" href="logo/logo_9.svg" />
     <style>
       * {
         margin: 0;
@@ -43,6 +44,7 @@
         box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         position: sticky;
         top: 0;
+        bottom: 0;
         z-index: 1000;
       }
 
@@ -55,9 +57,11 @@
       }
 
       .logo {
-        font-size: 1.8rem;
+        font-size: 2rem;
         font-weight: bold;
         color: var(--primary);
+        display: flex;
+        align-items: center;
       }
 
       .nav-menu {
@@ -726,19 +730,23 @@
     <!-- Navigation -->
     <nav>
       <div class="nav-container">
-        <img
-          src="logo/logo_9.svg"
-          alt="logo"
-          style="width: 80px; height: 80px"
-        />
-        <div class="logo">Janakpur Waterproofing Expert</div>
+        <div class="logo">
+          <a href="#home">
+            <img
+              src="logo/logo_9.svg"
+              alt="logo"
+              style="width: 120px; height: 120px"
+            />
+          </a>
+          Janakpur Waterproofing Expert
+        </div>
         <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
         <ul class="nav-menu" id="navMenu">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#gallery">Gallery</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li style="font-size: 20px"><a href="#home">Home</a></li>
+          <li style="font-size: 20px"><a href="#services">Services</a></li>
+          <li style="font-size: 20px"><a href="#gallery">Gallery</a></li>
+          <li style="font-size: 20px"><a href="#about">About</a></li>
+          <li style="font-size: 20px"><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
