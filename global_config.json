@@ -3,14 +3,13 @@
     "tagline": "Building Dreams, Protecting Foundations",
     "description": "Premier Construction, Waterproofing & Interior Design Solutions for Residential & Commercial Properties",
     "yearsOfExperience": 7,
-    "projectsCompleted": 5000,
+    "projectsCompleted": 90,
     "clientSatisfaction": 98,
-    "teamMembers": 50,
-    "warrantyYears": 10,
-    
+    "teamMembers": 13,
+    "warrantyYears": 1,
     "contact": {
         "address": {
-            "street": "123 Construction Plaza, Sector 15",
+            "street": "Sita Chowk",
             "city": "Janakpur",
             "state": "Nepal",
             "zipCode": "45600",
@@ -31,14 +30,12 @@
             "emergency": "Emergency: 24/7 Available"
         }
     },
-    
     "social": {
         "facebook": "https://facebook.com/janakpurwaterproofing",
         "instagram": "https://instagram.com/janakpurwaterproofing",
         "youtube": "https://youtube.com/@janakpurwaterproofing",
         "linkedin": "https://linkedin.com/company/janakpurwaterproofing"
     },
-    
     "services": [
         {
             "id": "waterproofing",
@@ -73,22 +70,20 @@
         {
             "id": "renovation",
             "name": "Renovation & Repair",
-            "icon": "🛠️",
+            "icon": "🛠️",
             "description": "Complete building repairs, facade remodeling, and maintenance services for homes and offices with structural expertise."
         }
     ],
-    
     "serviceAreas": [
         "Janakpur",
         "Dhanusha District",
         "Province 2",
         "Surrounding Areas"
     ],
-    
     "features": [
         {
-            "icon": "⭐",
-            "title": "9+ Years Experience",
+            "icon": "⭐",
+            "title": "7+ Years Experience",
             "description": "Proven track record in delivering quality construction and waterproofing projects across residential and commercial sectors."
         },
         {
@@ -98,7 +93,7 @@
         },
         {
             "icon": "🛡️",
-            "title": "10-Year Warranty",
+            "title": "1-Year Warranty",
             "description": "We stand behind our waterproofing work with comprehensive warranties and post-service support."
         },
         {
@@ -112,21 +107,20 @@
             "description": "We use only ISI-marked and internationally certified materials for lasting durability and quality assurance."
         },
         {
-            "icon": "⏱️",
+            "icon": "⏱️",
             "title": "On-Time Delivery",
             "description": "Transparent pricing, detailed quotations, and commitment to project timelines without hidden costs."
         }
     ],
-    
     "testimonials": [
         {
             "text": "Exceptional waterproofing service! Our bathroom had chronic leakage issues for years. Their team identified the root cause and fixed it permanently. It's been 3 years and not a single drop of seepage. Highly recommended!",
-            "author": "Rajesh Kumar",
+            "author": "Rajesh Bhushal",
             "role": "Homeowner, Janakpur"
         },
         {
             "text": "They transformed our outdated kitchen into a stunning modular masterpiece. The design, quality, and attention to detail were outstanding. The project was completed on time and within our budget.",
-            "author": "Priya Sharma",
+            "author": "Priya Aire",
             "role": "Interior Design Client, Dhanusha"
         },
         {
@@ -136,8 +130,45 @@
         },
         {
             "text": "Our building's facade looked old and worn. They completely remodeled it with modern painting and UPVC cladding. It looks brand new now! Excellent workmanship.",
-            "author": "Meena Patel",
+            "author": "Meena Shakya",
             "role": "Society President, Province 2"
+        }
+    ],
+    "featuredProjects": [
+        {
+            "id": 1,
+            "image": "featured_projects_images/waterproofing expert.jpeg",
+            "caption": "Expert Waterproofing Solutions - 1 Year Leak-Free Guarantee",
+            "category": "waterproofing",
+            "altText": "Waterproofing Solutions"
+        },
+        {
+            "id": 2,
+            "image": "featured_projects_images/interior design and modular kitchen.jpeg",
+            "caption": "Transform Your Space - Custom Interior & Modular Kitchen Design",
+            "category": "interior",
+            "altText": "Modular Kitchen"
+        },
+        {
+            "id": 3,
+            "image": "featured_projects_images/metal works.png",
+            "caption": "Premium Metal Works - Durable, Elegant, Custom-Made",
+            "category": "metal",
+            "altText": "Metal Works"
+        },
+        {
+            "id": 4,
+            "image": "featured_projects_images/professional painting.jpeg",
+            "caption": "Professional Painting Services - Interior & Exterior Excellence",
+            "category": "painting",
+            "altText": "Painting Services"
+        },
+        {
+            "id": 5,
+            "image": "featured_projects_images/upvc glass - windows partition.jpeg",
+            "caption": "UPVC & Aluminium Solutions - Energy Efficient, Weather Resistant",
+            "category": "upvc",
+            "altText": "UPVC Windows"
         }
     ]
 }
