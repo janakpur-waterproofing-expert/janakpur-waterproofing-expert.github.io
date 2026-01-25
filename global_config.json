@@ -1,0 +1,143 @@
+{
+    "companyName": "Best Janakpur Waterproofing Expert",
+    "tagline": "Building Dreams, Protecting Foundations",
+    "description": "Premier Construction, Waterproofing & Interior Design Solutions for Residential & Commercial Properties",
+    "yearsOfExperience": 15,
+    "projectsCompleted": 5000,
+    "clientSatisfaction": 98,
+    "teamMembers": 50,
+    "warrantyYears": 10,
+    
+    "contact": {
+        "address": {
+            "street": "123 Construction Plaza, Sector 15",
+            "city": "Janakpur",
+            "state": "Nepal",
+            "zipCode": "45600",
+            "country": "Nepal"
+        },
+        "phone": {
+            "primary": "+977-9876543210",
+            "alternate": "+977-9876543211"
+        },
+        "email": {
+            "info": "info@janakpurwaterproofing.com",
+            "projects": "projects@janakpurwaterproofing.com"
+        },
+        "whatsapp": "+977-9876543210",
+        "workingHours": {
+            "weekdays": "Mon - Sat: 9:00 AM - 7:00 PM",
+            "weekend": "Sunday: 10:00 AM - 5:00 PM",
+            "emergency": "Emergency: 24/7 Available"
+        }
+    },
+    
+    "social": {
+        "facebook": "https://facebook.com/janakpurwaterproofing",
+        "instagram": "https://instagram.com/janakpurwaterproofing",
+        "youtube": "https://youtube.com/@janakpurwaterproofing",
+        "linkedin": "https://linkedin.com/company/janakpurwaterproofing"
+    },
+    
+    "services": [
+        {
+            "id": "waterproofing",
+            "name": "Waterproofing Solutions",
+            "icon": "💧",
+            "description": "Complete seepage repair for roofs, walls, bathrooms, and underground tanks with long-lasting protection and 10-year guarantee."
+        },
+        {
+            "id": "interior",
+            "name": "Interior Design",
+            "icon": "🏠",
+            "description": "Bespoke interior solutions including modular kitchens, bedroom designs, and complete home makeovers with 3D visualization."
+        },
+        {
+            "id": "metal",
+            "name": "Metal Fabrication",
+            "icon": "🔧",
+            "description": "Custom metal works, gates, railings, trusses, and structural fabrication with precision engineering and premium finishes."
+        },
+        {
+            "id": "painting",
+            "name": "Painting Services",
+            "icon": "🎨",
+            "description": "Professional interior and exterior painting with premium quality finishes, texture work, and zero-side coloring for buildings."
+        },
+        {
+            "id": "upvc",
+            "name": "UPVC & Aluminium Works",
+            "icon": "🪟",
+            "description": "Energy-efficient doors, windows, and roofing solutions with modern aesthetics, thermal insulation, and weather resistance."
+        },
+        {
+            "id": "renovation",
+            "name": "Renovation & Repair",
+            "icon": "🛠️",
+            "description": "Complete building repairs, facade remodeling, and maintenance services for homes and offices with structural expertise."
+        }
+    ],
+    
+    "serviceAreas": [
+        "Janakpur",
+        "Dhanusha District",
+        "Province 2",
+        "Surrounding Areas"
+    ],
+    
+    "features": [
+        {
+            "icon": "⭐",
+            "title": "9+ Years Experience",
+            "description": "Proven track record in delivering quality construction and waterproofing projects across residential and commercial sectors."
+        },
+        {
+            "icon": "✅",
+            "title": "Licensed & Certified",
+            "description": "Our team comprises skilled engineers, designers, and craftsmen with relevant certifications and expertise."
+        },
+        {
+            "icon": "🛡️",
+            "title": "10-Year Warranty",
+            "description": "We stand behind our waterproofing work with comprehensive warranties and post-service support."
+        },
+        {
+            "icon": "📋",
+            "title": "End-to-End Management",
+            "description": "From design consultation to final execution, we handle every aspect with precision and professionalism."
+        },
+        {
+            "icon": "💎",
+            "title": "Premium Materials",
+            "description": "We use only ISI-marked and internationally certified materials for lasting durability and quality assurance."
+        },
+        {
+            "icon": "⏱️",
+            "title": "On-Time Delivery",
+            "description": "Transparent pricing, detailed quotations, and commitment to project timelines without hidden costs."
+        }
+    ],
+    
+    "testimonials": [
+        {
+            "text": "Exceptional waterproofing service! Our bathroom had chronic leakage issues for years. Their team identified the root cause and fixed it permanently. It's been 3 years and not a single drop of seepage. Highly recommended!",
+            "author": "Rajesh Kumar",
+            "role": "Homeowner, Janakpur"
+        },
+        {
+            "text": "They transformed our outdated kitchen into a stunning modular masterpiece. The design, quality, and attention to detail were outstanding. The project was completed on time and within our budget.",
+            "author": "Priya Sharma",
+            "role": "Interior Design Client, Dhanusha"
+        },
+        {
+            "text": "Professional metal fabrication work for our commercial building. The custom gates and railings are both beautiful and durable. Their craftsmen are truly skilled!",
+            "author": "Vikram Singh",
+            "role": "Commercial Property Owner, Janakpur"
+        },
+        {
+            "text": "Our building's facade looked old and worn. They completely remodeled it with modern painting and UPVC cladding. It looks brand new now! Excellent workmanship.",
+            "author": "Meena Patel",
+            "role": "Society President, Province 2"
+        }
+    ]
+}
