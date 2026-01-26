@@ -115,23 +115,33 @@
     "testimonials": [
         {
             "text": "Exceptional waterproofing service! Our bathroom had chronic leakage issues for years. Their team identified the root cause and fixed it permanently. It's been 3 years and not a single drop of seepage. Highly recommended!",
-            "author": "Rajesh Bhushal",
+            "author": "Rajesh Jha",
             "role": "Homeowner, Janakpur"
         },
         {
             "text": "They transformed our outdated kitchen into a stunning modular masterpiece. The design, quality, and attention to detail were outstanding. The project was completed on time and within our budget.",
-            "author": "Priya Aire",
+            "author": "Priya Yadav",
             "role": "Interior Design Client, Dhanusha"
         },
         {
             "text": "Professional metal fabrication work for our commercial building. The custom gates and railings are both beautiful and durable. Their craftsmen are truly skilled!",
-            "author": "Vikram Singh",
+            "author": "Vikram Chaudhari",
             "role": "Commercial Property Owner, Janakpur"
         },
         {
             "text": "Our building's facade looked old and worn. They completely remodeled it with modern painting and UPVC cladding. It looks brand new now! Excellent workmanship.",
-            "author": "Meena Shakya",
+            "author": "Meena Sah",
             "role": "Society President, Province 2"
+        },
+        {
+            "text": "The team at Janakpur Waterproofing Expert did a fantastic job on our home's waterproofing. Their professionalism and quality of work exceeded our expectations. We highly recommend their services to anyone in need of reliable waterproofing solutions.",
+            "author": "Nisha Kumari",
+            "role": "Janakpur"
+        },
+        {
+            "text": "Tiles waterproofing service was top-notch! They were prompt, efficient, and the results were impressive. No more water seepage issues in our bathrooms. Truly grateful for their expertise.",
+            "author": "Kaushalya Jha",
+            "role": "Office Manager, Dhanusha"
         }
     ],
     "featuredProjects": [
