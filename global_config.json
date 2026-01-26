@@ -1,18 +1,18 @@
 {
-    "companyName": "Janakpur Waterproofing Expert",
+    "companyName": "Best Waterproofing and Renovation Expert",
     "tagline": "Building Dreams, Protecting Foundations",
     "description": "Premier Construction, Waterproofing & Interior Design Solutions for Residential & Commercial Properties",
     "yearsOfExperience": 7,
-    "projectsCompleted": 90,
+    "projectsCompleted": 1500,
     "clientSatisfaction": 98,
-    "teamMembers": 13,
-    "warrantyYears": 1,
+    "teamMembers": 17,
+    "warrantyYears": 5,
     "contact": {
         "address": {
             "street": "Sita Chowk",
-            "city": "Janakpur",
+            "city": "Kathmandu",
             "state": "Nepal",
-            "zipCode": "45600",
+            "zipCode": "44600",
             "country": "Nepal"
         },
         "phone": {
@@ -75,8 +75,8 @@
         }
     ],
     "serviceAreas": [
-        "Janakpur",
-        "Dhanusha District",
+        "Kathmandu",
+        "Lalitpur",
         "Province 2",
         "Surrounding Areas"
     ],
@@ -93,7 +93,7 @@
         },
         {
             "icon": "🛡️",
-            "title": "1-Year Warranty",
+            "title": "5-Year Warranty",
             "description": "We stand behind our waterproofing work with comprehensive warranties and post-service support."
         },
         {
